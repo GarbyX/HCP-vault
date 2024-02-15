@@ -1,0 +1,9 @@
+spring:
+  application:
+    name:
+  profiles:
+    active: dev
+  cloud:
+    config:
+      uri: http://garby.hashnode.dev
+      label: development
